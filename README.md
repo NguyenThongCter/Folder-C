@@ -1,5 +1,7 @@
 # Folder-C
 Everything about C my project 
+
+
 Day 3: Control Flow & Decision Making
 Today I mastered the if-else logic and handled common C pitfalls like the input buffer.
 
