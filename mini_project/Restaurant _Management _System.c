@@ -16,7 +16,7 @@ int main(){
           printf("\nCurrent Balance: %d.000 VNĐ", wallet);
           printf("\n-----------------------------------------------");
 
-          //MENU Đồ ĂN
+          //Food menu
           for(int i = 0; i < 2; i++){
                     printf("\n --- FOOD MENU ---");
                     printf("\n1. Phở bò (BEEF PHO)  --50.000 VNĐ\n");
@@ -40,7 +40,7 @@ int main(){
 
 
 
-          //MENU ĐỒ UỐNG
+          //Drink Menu
           for(int i = 0; i < 2; i++){
                     printf("\n --- DRINK MENU ---");
                     printf("\n1.Pepsi  --20.000 VNĐ");
@@ -57,7 +57,7 @@ int main(){
           }
           
 
-          // Logic Thanh Toán
+          // Logic paid
           printf("\n-----------------------------------------------\n");
           printf("Total Bill: %d.000 VNĐ", total_bill);
           if(wallet >= total_bill){
