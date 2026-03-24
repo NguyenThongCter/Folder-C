@@ -26,11 +26,11 @@ int main(){
           // 2. Dùng DO-WHILE để duy trì Menu
           do{
                     printf("\n-------- ATM MENU --------\n");
-        printf("1. Check Balance\n");
-        printf("2. Savings Interest Projection\n");
-        printf("3. EXIT\n");
-        printf("Please select an option: ");
-        scanf("%d", &choice);
+                    printf("1. Check Balance\n");
+                    printf("2. Savings Interest Projection\n");
+                    printf("3. EXIT\n");
+                    printf("Please select an option: ");
+                    scanf("%d", &choice);
 
         switch (choice) {
                     case 1:
